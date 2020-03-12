@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    border:1px solid black;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.btn-div{
+    text-align: center;
+    /* justify-content: space-around; */
+    /* flex-direction: row-reverse; */
+
+  
+
+
+    
+}
+.btn{
+    width: 100px;
+    height:40px;
+    color: white;
+    border: none;
+    transition: 500ms;
+    
+    
+}
+.btn:hover{
+    background: #000;
+    transform: translateY(-3px);
+}
+.btn:active{
+    transform: translateY(10px);
+
+}
+.primary{
+    background-color: rgba(39, 165, 182, 0.788);
+    border:1px solid black;
+
+    
+
+}
+.danger{
+    background-color: rgba(197, 87, 43, 0.904);
+    border:1px solid black;
+
+} 
